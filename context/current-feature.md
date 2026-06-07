@@ -16,4 +16,4 @@
 
 ## History
 
-<!-- Write the history of the current feature you are working on here. -->
+- **2026-06-06** — Initial Next.js project setup and repository initialization. Configured `.gitignore`, added project context files, and pushed to remote (`kenekizzy/Dev-Stash`).
