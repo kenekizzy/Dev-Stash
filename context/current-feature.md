@@ -1,18 +1,27 @@
-# Current Feature 
+# Current Feature
 
-<!-- Write the current feature you are working on here and include a short description -->
+Dashboard UI — Phase 1: Foundation & Layout
+
+Setting up ShadCN UI, the `/dashboard` route, global dark mode styles, and the top bar with a placeholder sidebar and main area.
 
 ## Status
 
-<!-- Write the status of the current feature you are working on here. These include Not Started, In Progress, Completed, On Hold, etc. -->
+In Progress
 
 ## Goals
 
-<!-- Write the goals of the current feature you are working on here. -->
+- Initialize ShadCN UI and install required components
+- Create the `/dashboard` route
+- Set up the main dashboard layout with global styles
+- Enable dark mode by default
+- Build the top bar with search input and "New Item" button (display only)
+- Add placeholder sidebar and main area (`<h2>Sidebar</h2>` / `<h2>Main</h2>`)
 
 ## Notes
 
-<!-- Write any notes you have about the current feature you are working on here. -->
+- Reference screenshot: `context/screenshots/dashboard-ui-main.png`
+- This is Phase 1 of 3 — no real data wiring yet, layout only
+- Mock data available at `lib/mock-data.ts` for later phases
 
 ## History
 
