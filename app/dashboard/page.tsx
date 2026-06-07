@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { DashboardSidebar } from "@/components/dashboard/sidebar";
+import { MainContent } from "@/components/dashboard/main-content";
 
 export default function DashboardPage() {
   const [collapsed, setCollapsed] = useState(false);
@@ -12,10 +13,7 @@ export default function DashboardPage() {
         collapsed={collapsed}
         onToggle={() => setCollapsed((c) => !c)}
       />
-
-      <main className="flex-1 overflow-auto p-6">
-        <h2 className="text-sm font-semibold text-foreground">Main</h2>
-      </main>
+      <MainContent />
     </div>
   );
 }

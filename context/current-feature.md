@@ -1,18 +1,26 @@
 # Current Feature
 
-<!-- Write the current feature you are working on here and include a short description -->
+Dashboard UI — Phase 3: Main Content Area
+
+Building the main dashboard content area with stats cards, recent collections, pinned items, and a list of recent items.
 
 ## Status
 
-<!-- Write the status of the current feature you are working on here. These include Not Started, In Progress, Completed, On Hold, etc. -->
+In Progress
 
 ## Goals
 
-<!-- Write the goals of the current feature you are working on here. -->
+- 4 stats cards at the top: total items, total collections, favorite items, favorite collections
+- Recent collections grid
+- Pinned items section
+- 10 most recent items list
 
 ## Notes
 
-<!-- Write any notes you have about the current feature you are working on here. -->
+- Use mock data from `lib/mock-data.ts` directly until database is implemented
+- Reference screenshot: `context/screenshots/dashboard-ui-main.png`
+- Stats cards are not in the screenshot — add them at the top of the main area
+- This is Phase 3 of 3 — completes the dashboard UI layout
 
 ## History
 
